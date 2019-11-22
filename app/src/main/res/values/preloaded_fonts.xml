@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/allerta</item>
+        <item>@font/belgrano</item>
+        <item>@font/gfs_didot</item>
+    </array>
+</resources>

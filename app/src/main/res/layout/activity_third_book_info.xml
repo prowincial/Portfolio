@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third_book_info">
+    <Button
+        android:id="@+id/home2"
+        android:layout_width="79dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorwhite"
+        android:fontFamily="@font/belgrano"
+        android:onClick="go_back3"
+        android:text="HOME"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infius"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/infius"
+        android:layout_width="340dp"
+        android:layout_height="520dp"
+        android:fontFamily="@font/gfs_didot"
+        android:textSize="23sp"
+        android:text="The Frog Princess is a fairy tale that has multiple versions with various origins. Another tale of this type is Doll i' the Grass.
+Russian variants include the Frog Princess or Tsarevna Frog and also Vasilisa the Wise; Alexander Afanasyev collected variants in his Narodnye russkie skazki. Andrew Lang included an Italian variant titled The Frog in The Violet Fairy Book. Italo Calvino included another Italian variant from Piedmont, The Prince Who Married a Frog, in Italian Folktales, where he noted that the tale was common throughout Europe. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+</androidx.constraintlayout.widget.ConstraintLayout>

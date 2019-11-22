@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_book_info">
+    <Button
+        android:id="@+id/home2"
+        android:layout_width="79dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorwhite"
+        android:fontFamily="@font/belgrano"
+        android:onClick="go_back2"
+        android:text="HOME"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infius"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/infius"
+        android:layout_width="340dp"
+        android:layout_height="520dp"
+        android:fontFamily="@font/gfs_didot"
+        android:text="The Catcher in the Rye is a story by J. D. Salinger, partially published in serial form in 1945–1946 and as a novel in 1951. It was originally intended for adults but is often read by adolescents for its themes of angst and alienation, and as a critique on superficiality in society. It has been translated into almost all of the world's major languages. Around one million copies are sold each year, with total sales of more than 65 million books."
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+</androidx.constraintlayout.widget.ConstraintLayout>
